@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 650px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  margin-top: 25px;
+  color: #555;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Botones */
+button {
+  padding: 8px 12px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Tarjeta de contacto */
+.contact {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-left: 6px solid #667eea;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Contacto favorito */
+.favorite {
+  border-left-color: gold;
+  background: linear-gradient(135deg, #fff7d1, #ffeb99);
+}
+
+/* Botón eliminar */
+.contact button:last-child {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+/* Botón favorito */
+.contact button:first-of-type {
+  background-color: #667eea;
+  color: white;
+}
